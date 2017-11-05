@@ -1,0 +1,11 @@
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\login\dao\ILoginDao.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\login\controller\LoginController.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\org\test\portal\common\App.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\login\services\ILoginService.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\login\dao\LoginDao.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\exception\ApplicationException.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\login\validator\ILoginValidator.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\login\bean\UserBean.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\login\services\LoginService.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\login\bean\AclUserDO.java
+F:\ERP\workspace_new\test-portal\test-portal-common\src\main\java\com\test\portal\login\validator\LoginValidator.java

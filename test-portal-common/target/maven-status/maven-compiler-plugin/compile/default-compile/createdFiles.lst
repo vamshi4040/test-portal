@@ -1,0 +1,11 @@
+org\test\portal\common\App.class
+com\test\portal\login\dao\ILoginDao.class
+com\test\portal\login\validator\LoginValidator.class
+com\test\portal\login\bean\UserBean.class
+com\test\portal\login\dao\LoginDao.class
+com\test\portal\exception\ApplicationException.class
+com\test\portal\login\bean\AclUserDO.class
+com\test\portal\login\services\ILoginService.class
+com\test\portal\login\controller\LoginController.class
+com\test\portal\login\services\LoginService.class
+com\test\portal\login\validator\ILoginValidator.class
