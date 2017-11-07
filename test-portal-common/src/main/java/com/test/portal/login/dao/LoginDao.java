@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import com.test.portal.exception.ApplicationException;
 import com.test.portal.login.bean.AclUserDO;
+import com.test.portal.login.bean.EmployeeDO;
 import com.test.portal.login.bean.UserBean;
 
 @Repository
@@ -28,6 +29,19 @@ public class LoginDao implements ILoginDao {
 			throw new ApplicationException();
 		}
 		return aclUserDO;
+	}
+
+	public int saveEmployeeRegistrationDetails(EmployeeDO employee) {
+		int status = 0;
+		try {
+			Session session = sessionFactory.getCurrentSession();
+			session.saveOrUpdate(employee);
+			status = 1;
+		} catch (ApplicationException e) {
+			status = 0;
+			throw new ApplicationException();
+		}
+		return status;
 	}
 
 }
