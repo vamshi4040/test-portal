@@ -41,7 +41,7 @@ public class LoginController {
 		return map;
 	}
 
-	@RequestMapping(value = "/registratin", method = RequestMethod.POST, produces = "application/json")
+	@RequestMapping(value = "/registration", method = RequestMethod.POST, produces = "application/json")
 	public Map<String, Object> saveEmployeeRegistrationDetails(@RequestBody Parameters Parameters) {
 		int status = 0;
 		Map<String, Object> response = null;
