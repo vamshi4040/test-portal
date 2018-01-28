@@ -83,9 +83,9 @@ public class EmployeeDO implements Serializable {
 	@JoinColumn(name = "LOGGEDIN_LOCATION_ID")
 	private Integer loggedinLocationId;*/
 
-	@ManyToOne
+	/*@ManyToOne
 	@JoinColumn(name = "COMPANY_ID")
-	private CompanyMstrDO companyMstrDO;
+	private CompanyMstrDO companyMstrDO;*/
 
 	public Integer getEmployeeId() {
 		return employeeId;
@@ -247,14 +247,14 @@ public class EmployeeDO implements Serializable {
 		this.designationmstDo = designationmstDo;
 	}
 
-	public CompanyMstrDO getCompanyMstrDO() {
+	/*public CompanyMstrDO getCompanyMstrDO() {
 		return companyMstrDO;
 	}
 
 	public void setCompanyMstrDO(CompanyMstrDO companyMstrDO) {
 		this.companyMstrDO = companyMstrDO;
 	}
-
+*/
 	 
 
 }

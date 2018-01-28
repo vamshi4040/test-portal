@@ -11,7 +11,7 @@
 	
 	<context:component-scan base-package="com.test" />
 
-	<resources mapping="/resources/**" location="/resources/" />
+	<resources mapping="/ui/**" location="/ui/" />
 	
 	<beans:import resource="hibernate-context.xml" />
 

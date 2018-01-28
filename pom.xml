@@ -22,7 +22,7 @@
 		<spring.version>4.2.1.RELEASE</spring.version>
 		<security.version>4.0.3.RELEASE</security.version>
 		<jdk.version>1.8</jdk.version>
-		<hibernate.version>4.3.5.Final</hibernate.version>
+		<hibernate.version>5.1.12.Final</hibernate.version>
 		<jackson.version>2.5.3</jackson.version>
 		<org.aspectj-version>1.7.4</org.aspectj-version>
 		<org.slf4j-version>1.7.6</org.slf4j-version>
@@ -107,6 +107,16 @@
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		
+		 <!-- ojdbc6.jar example -->
+		<!-- https://mvnrepository.com/artifact/oracle/ojdbc6 -->
+		<dependency>
+		    <groupId>oracle</groupId>
+		    <artifactId>ojdbc6</artifactId>
+		    <version>11.2.0.3</version>
+		</dependency>
+
+		
 	</dependencies>
 	
 	<modules>

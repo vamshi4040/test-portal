@@ -2,10 +2,9 @@ package com.test.portal.login.services;
 
 import java.util.Date;
 
-import javax.transaction.Transactional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.test.portal.exception.ApplicationException;
 import com.test.portal.login.bean.AclUserDO;
@@ -50,7 +49,7 @@ public class LoginService implements ILoginService{
 			employeeObj.setCreatedDt(new Date());
 			employeeObj.setModifiedBy(parameters.getModifiedBy());
 			employeeObj.setModifiedDt(new Date());
-			employeeObj.setCompanyMstrDO(parameters.getCompanyId());
+			//employeeObj.setCompanyMstrDO(parameters.getCompanyId());
 			employeeObj.setDesignationmstDo(parameters.getDesignationmstDo());
 			status =loginDao.saveEmployeeRegistrationDetails(employeeObj);
 		} catch (ApplicationException e) {
