@@ -2,6 +2,7 @@ package com.test.portal.login.controller;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -35,7 +36,7 @@ public class LoginController {
 			AclUserDO aclUserDO = loginService.getUserDetails(userbean);
 			map.put("user", aclUserDO);
 
-		} catch (ApplicationException e) {
+		} catch (Exception e) {
 			throw new ApplicationException();
 		}
 		return map;
